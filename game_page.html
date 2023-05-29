@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Adivina la Palabra </title>
+    <link rel="stylesheet" href="style.game.page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+</html>
+
+<body>
+    <button onclick="salir()"  class="glyphicon glyphicon-log-out"> Salir</button>
+    <h4 id="player1_name" class="nombre_jugador"></h4><span id="player1_score" class="nombre_jugador"></span>
+    <br>
+    <h4 id="player2_name" class="nombre_jugador"></h4><span id="player2_score" class="nombre_jugador"></span>
+
+    <div class="container">
+        <center>
+            <h3 id="adivinaP"     style="color: rgb(78, 117, 208);"> Adivina la palabra</h3>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+            <br>
+            <div id="output"></div>
+            <br>
+            <br>
+            <label id="ale">Escribe tu palabra:
+                <b style="color: rgb(207, 104, 104)"> Que sea mayor de 5 letras</b>
+            </label>
+            <input type="text" id="word" placeholder="Aqui Escribe Tu Palabra☜⬅⇐" class="form-control" style="width: 50%;">
+            <br>
+            <button onclick="send()" class="btn btn-success">Adivina la palabra</button>
+            <br>
+            <input type="text" id="respuesta" placeholder="Aqui va tu respuesta" class="form-control" style="width: 50%;">
+            <br>
+            <button onclick="comprobar()" class="btn btn-primary">Comprobar</button>
+        </center>
+    </div>
+    <script src="main.game_page.js"></script>
+</body>
+
+</html>

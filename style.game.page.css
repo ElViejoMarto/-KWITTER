@@ -1,0 +1,25 @@
+html,
+body {
+ height: 100%;
+ margin: 0;
+    background-image: linear-gradient(to right top, rgb(14, 175, 244), rgb(105, 202, 232), rgb(130, 186, 212), rgb(217, 231, 241));
+}
+.nombre_jugador{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    font-size: 35px;
+    color: rgb(14, 50, 18);
+}
+#output{
+    text-align: center;
+    font-size: 40px;
+}
+#adivinaP{
+    font-size: 40;
+    font-family: fantasy;
+}
+#ale{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+}

@@ -1,0 +1,38 @@
+html,
+body {
+
+    background-image: linear-gradient(to right top, rgb(230, 242, 230), rgb(164, 195, 164), rgb(95, 143, 95), rgb(103, 152, 103));
+}
+
+.header {
+    color: lavender;
+    font-size: 45px;
+    margin-top: 80px;
+    font-family: fantasy;
+    letter-spacing: 10px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: 15px;
+}
+
+.login_div1,
+.login_div2 {
+    background: rgb(192, 191, 189);
+    border-radius: 15px;
+}
+
+#logo {
+    height: 85px;
+    width: 85px;
+    border-radius: 70px;
+}
+
+.form-control {
+    width: 150px;
+}
+.conteiner{
+    text-align: center;
+
+}
